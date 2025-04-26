@@ -49,6 +49,21 @@ dependencies:
   hive_flutter: ^1.1.0
   connectivity_plus: ^6.1.0
   intl: ^0.20.2
+  flutter_native_splash: ^2.4.4
+  flutter_launcher_icons: ^0.14.3
+
+flutter_native_splash:
+  color: "#0a0e21"
+  image: "assets/logo.png"
+  android: true
+  ios: true
+  web: true
+
+flutter_icons:
+  image_path: "assets/logo.png"
+  ios: false
+  android: "launcher_icon"
+  adaptive_icon_background: "#0a0e21"
 
 dev_dependencies:
   flutter_test:
